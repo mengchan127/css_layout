@@ -2,7 +2,8 @@ html,body{
 	margin:0;
 	padding: 0;
 	font-family: arial;
-	font-size: 13px;
+	/*font-size: 13px;*/
+	font:76%;
 }
 .head{
 	width: 100%;
@@ -22,8 +23,8 @@ a{
 	color: #000066;
 }
 p{
-	padding-left: 10px;
-	padding-right: 10px;
+	margin: 0 10px 10px;
+	line-height: 1.4;
 }
 .container{
 	width: 100%;
