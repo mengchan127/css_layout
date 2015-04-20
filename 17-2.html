@@ -28,22 +28,20 @@
 	.wrapper{
 		float: right;
 		width: 100%;
-		margin-left: -400px;
+		margin-left: -400px;/*这设置了负边距，相当于左边距减少了400px,后面浮动的元素就可以乘虚而入。*/
 	}
 	.content{
-		margin-left: 400px;
+		margin-left: 400px;/*子元素也要设置边距，不然扩充父元素的width，达不到理想的效果*/
 	}
 	.navigation{
 		background-color: #B9CAFF;
 		width: 200px;
 		float: right;
-		/*margin-left: -200px;*/
 	}
 	.stuff{
 		background-color: #FF8539;
 		width: 200px;
 		float: right;
-		/*margin-left: -200px;*/
 	}
 	.footer{
 		clear: right;
